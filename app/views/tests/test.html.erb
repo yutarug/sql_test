@@ -1,0 +1,5 @@
+<p>テスト</p>
+<%= form_with(model: @user, url: post_path) do |form| %>
+  <%= form.text_field :name %>
+  <%= form.submit%>
+<% end %>
